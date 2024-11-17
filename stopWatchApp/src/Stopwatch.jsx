@@ -48,7 +48,12 @@ function Stopwatch(){
         seconds = String(seconds).padStart(2, "0");
         milliseconds = String(milliseconds).padStart(3, "0");
 
-        return `${hours}:${minutes}:${seconds}.${milliseconds}`;
+        return (
+                    <>
+                        {hours}:{minutes}:{seconds}.{Math.floor(milliseconds/100)}
+                        <span className="smallText">{padZeros(milliseconds % 100)}</span>
+                    </>
+                );
     }
 
     function formatTime2(){

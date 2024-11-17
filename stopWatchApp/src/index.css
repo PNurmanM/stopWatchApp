@@ -29,6 +29,11 @@ body{
   margin-bottom: 25px;
   
 }
+.smallText{
+  font-size: 2.5rem;
+  opacity: 70%;
+  margin-left: 4px;
+}
 .controls button{
   font-size: 1.5rem;
   font-weight: bold;
@@ -74,5 +79,4 @@ background-color: hsl(212, 50%, 65%);
 }
 .format:hover{
   color: hsl(0, 0%, 100%);
-  
 }
