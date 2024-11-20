@@ -1,9 +1,13 @@
-import Stopwatch from "./Stopwatch";
+import Adding from "./Adding";
 
 function App() {
 
   return (
-      <Stopwatch/>
+      <>
+        <Adding/>
+        
+      </>
+      
   );
 
 }
